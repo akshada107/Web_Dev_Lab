@@ -30,8 +30,6 @@ h2 {
 p {
     font-size: 16px;
 }
-
-/* P7: Basic Header and Footer Styling */
 header, footer {
     background-color: var(--primary-color);
     color: white;
@@ -42,7 +40,7 @@ header h1 {
     color: white;
 }
 
-/* P8: Sticky Navigation */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -57,7 +55,7 @@ header h1 {
     margin-right: 15px;
 }
 
-/* P8: Project Cards */
+
 .project-card {
     position: relative;
     background-color: white;
@@ -68,7 +66,7 @@ header h1 {
     overflow: hidden;
 }
 
-/* P8: Card Overlay */
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -86,7 +84,6 @@ header h1 {
     opacity: 1;
 }
 
-/* P9: Responsive Project Grid using Flexbox */
 #projects {
     display: flex;
     flex-wrap: wrap;
@@ -101,8 +98,6 @@ header h1 {
     flex: 1 1 300px;
     box-sizing: border-box;
 }
-
-/* P9: Responsive layout for mobile screens */
 @media (max-width: 600px) {
     .navbar {
         display: flex;
@@ -119,8 +114,6 @@ header h1 {
         margin: 0;
     }
 }
-
-/* P10: Flexbox Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -131,8 +124,6 @@ header {
 header h1 {
     margin: 0;
 }
-
-/* P10: Flexbox Footer */
 footer {
     display: flex;
     justify-content: center;
