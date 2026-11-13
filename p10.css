@@ -1,4 +1,4 @@
-/* General Styling */
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
     color: #222;
 }
 
-/* Header using Flexbox */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@ body {
     padding: 20px;
 }
 
-/* Navigation */
+
 .navbar {
     display: flex;
     gap: 20px;
@@ -33,7 +33,7 @@ body {
     font-size: 16px;
 }
 
-/* Main Content */
+
 main {
     padding: 20px;
     min-height: 400px;
@@ -43,7 +43,7 @@ section {
     margin-bottom: 30px;
 }
 
-/* Project Cards */
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer using Flexbox */
+
 .footer {
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ section {
     padding: 20px;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 600px) {
 
     .header {
